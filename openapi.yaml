@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: Currency Converter Plugin
-  description: A plugin that allows to generate a qrcode image based on the user text input and shows the image url in markdown format.
+  description: A plugin that allows to generate a qrcode image based on the user text input and shows the image in markdown format.
   version: 'v1'
 servers:
   - url: http://qrcode.feg59crz.repl.co
@@ -33,4 +33,4 @@ paths:
                 properties:
                   url:
                     type: string
-                    description: The image url to be shown in a markdown format.
+                    description: The image url to be shown in markdown.
